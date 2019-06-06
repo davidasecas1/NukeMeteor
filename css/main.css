@@ -1,0 +1,34 @@
+
+
+.cont {
+  display: grid;
+  margin-top: 30px;
+}
+.cont #contenedor{
+  justify-self: center;
+}
+.formulario-contenedor {
+  justify-self: center;
+  border: 1px solid #bbb;
+  padding: 20px;
+  padding-right: 25px;
+}
+.formulario-contenedor .formulario-titulo {
+  margin-top: 0;
+}
+.formulario-contenedor .form-item {
+  margin-top: 5px;
+}
+.formulario-contenedor #formulario{
+  padding-left: 15px;
+}
+.formulario-contenedor .form-item {
+  margin-top: 5px;
+}
+.formulario-contenedor .form-item.form-item-btnSubmit {
+  margin-top: 20px;
+  display: flex;
+}
+.formulario-contenedor .form-item-btnSubmit .form-item-input {
+  margin: 0 auto;
+}

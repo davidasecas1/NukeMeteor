@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>NukeMeteor</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+  <div class="cont">
+    <div id="contenedor"></div>
+    <div class="formulario-contenedor">
+      <h2 class="formulario-titulo">Formulario de juego</h2>
+      <form id="formulario">
+        <div class="form-item">
+          <label for="Nombre">Nombre</label>
+          <div class="form-item-input">
+            <input type="text" name="Nombre" size="25" />
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="Nombre">Dificultad</label>
+          <div class="form-item-input">
+            <input type="range" name="Dificultad" size="25" />
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="Nombre">Puntuación para ganar</label>
+          <div class="form-item-input">
+            <input type="number" name="Puntos" min="5" value="5"/>
+          </div>
+        </div>
+
+        <div class="form-item  form-item-btnSubmit">
+            <div class="form-item-input">
+              <input type="submit" name="btnSubmit" value="Empezar juego" />
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+
+  <script src='js/main.js'></script>
+  <script src='js/cuerpos.js'></script>
+  <script src='js/formulario.js'></script>
+</body>
+</html>
